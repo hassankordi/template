@@ -1,0 +1,40 @@
+.footer-con{
+    width: 100%;
+    padding: 40px ;
+    background-color: #252525;
+    margin: 0 0 25px 0;
+}
+p{
+    color: white;
+   
+}
+i{
+    color: white;
+    border: white 2px solid;
+    padding: 8px;
+    font-size: 20px;
+    margin: 0 10px;
+    background-color: #252525;
+    transition: all 0.8s;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+i:hover{
+    color: #252525;
+    background-color: white;
+
+}
+
+@media all and (max-width:768px){
+.icons{
+    margin-top: 20px;
+}
+p{
+    margin: auto;
+    
+}
+
+}
